@@ -1,0 +1,107 @@
+/*--------------------------------------------------
+    ## All responsive style
+---------------------------------------------------*/
+@media all and (min-width: 1600px) {
+	.banner-area-inner {
+	    padding-top: 150px;
+	    padding-bottom: 195px;
+	}
+}
+@media all and (max-width: 1199px) {
+	.banner-inner {
+	    padding-top: 70px;
+	}
+	.single-popular-topics h4 {
+	    font-size: 18px;
+	}
+	.single-popular-topics {
+	    padding: 14px;
+	}
+}
+@media all and (max-width: 991px) {
+	.banner-inner h2 {
+	    font-size: 45px;
+	}
+	.banner-inner p {
+	    font-size: 18px;
+	    margin-top: 12px;
+	}
+	.banner-area-inner form .form-control {
+	    height: 65px;
+	}
+	.banner-area-inner form .btn {
+	    right: 7px;
+	    top: 8px;
+	}
+	.banner-area-inner form {
+	    margin-top: 30px;
+	}
+}
+
+@media all and (max-width: 767px) {
+	.single-post-inner .thumb img {
+	    width: 100%;
+	}
+	.section-title .btn {
+		margin-top: 20px;
+	}
+	.single-team-inner .thumb img {
+		width: 100%;
+	}
+	.single-blog-inner .thumb img {
+		width: 100%;
+	}
+	.testimonial-slider .owl-nav {
+	    text-align: left;
+	}
+	.testimonial-slider .owl-nav .owl-prev {
+		margin-left: 0;
+	}
+}
+
+@media all and (max-width: 575px) {
+	.banner-inner h2 {
+	    font-size: 40px;
+	}
+	.banner-area-inner form .form-control {
+	    height: 50px;
+	    padding: 0 25px;
+	}
+	.banner-area-inner form .btn {
+	    right: auto;
+	    top: auto;
+	    width: 100%;
+	    margin-top: 8px;
+	}
+	.banner-inner {
+	    padding-top: 10px;
+	}
+	.section-title h2 {
+	    font-size: 34px;
+	}
+	.single-post-inner .details h4 {
+	    font-size: 22px;
+	}
+	.single-post-inner {
+	    padding: 15px;
+	}
+	.section-title h2 br {
+		display: none;
+	}
+	.section-title .quote {
+	    padding-left: 25px;
+	    font-size: 16px;
+	}
+	.section-title p {
+	    line-height: 1.2;
+	}
+	.single-call-to-action-inner {
+	    padding: 30px 20px;
+	}
+	.back-to-top {
+	    position: fixed;
+	    right: 16px;
+	    bottom: 20px;
+	}
+}
+
